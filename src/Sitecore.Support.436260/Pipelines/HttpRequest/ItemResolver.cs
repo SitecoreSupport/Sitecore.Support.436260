@@ -52,6 +52,16 @@
                     }
                 }
             }
+
+            #region Added code
+
+            if (child == root)
+            {
+                return null;
+            }
+
+            #endregion
+
             return child;
         }
 
